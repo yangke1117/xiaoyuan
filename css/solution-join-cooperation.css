@@ -1,0 +1,101 @@
+.solution_box{
+	position: relative;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+.solution_box.bg1{
+	background-image: url(../images/img/solutionbg.png);
+}
+.solution_box.bg2{
+	background-image: url(../images/img/cooperationbg.png);
+}
+.solution_box.bg3{
+	background-image: url(../images/img/solutionbg.png);
+}
+.solution{
+	padding: 70px 0 100px;
+}
+.solution form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 578px;
+	padding: 30px 70px;
+	border: 2px solid #fff;
+	border-radius: 20px;
+}
+.solution form header{
+	font-size: 36px;
+}
+.solution form div{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 20px 0;
+}
+.solution form div label{
+	height: 30px;
+	line-height: 30px;
+	padding:0 10px 0 36px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #707070;
+}
+.solution form div label[for="name"]{
+	background: url(../images/icon/icon19.png) no-repeat left;
+}
+.solution form div label[for="company"]{
+	background: url(../images/icon/icon20.png) no-repeat left;
+}
+.solution form div label[for="email"]{
+	background: url(../images/icon/icon21.png) no-repeat left;
+}
+.solution form div label[for="call"]{
+	background: url(../images/icon/icon22.png) no-repeat left;
+}
+.solution form div input{
+	flex: auto;
+	border:0;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+}
+.solution form textarea{
+	padding: 5px;
+	max-width: 100%;
+	max-height: 150px;
+	border-radius: 5px;
+}
+.solution form input[type="submit"]{
+	border:0;
+	margin: 30px 0;
+	padding: 15px 70px;
+	font-size: 30px;
+	color: #fff;
+	background-color: #408ee0;
+	border-radius: 15px;
+}
+.solution form input[type="submit"]:hover{
+	background-color: #009ef5;
+}
+.solution form p{
+	color: #777;
+}
+@media screen and (max-width: 768px) {
+	.solution form{
+		padding:15px;
+		border:0;
+	}
+	.solution form header{
+		font-size: 24px;
+	}
+	.solution form div label{
+		font-size: 12px;
+	}
+	.solution form input[type="submit"]{
+		padding: 10px 40px;
+		font-size: 20px;
+		border-radius: 10px;
+	}
+}

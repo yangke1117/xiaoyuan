@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei Light,Microsoft YaHei,Arial Narrow,Arial,"sans-serif";
+}
+ul,ol{
+	list-style-type: none;
+}
+img{
+	border: 0;
+	max-width: 100%;
+}
+input{
+	outline: none;
+}
+a,
+a:hover,
+a:active{
+	text-decoration: none;
+	color: #333;
+}
+.wm1200{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.bgcolor_blue_base{
+	background-color: #009fe5;
+}
+.color_blue_base{
+	color: #009fe5;
+}
+.bgcolor_gray_base{
+	background-color: #f6f7fb;
+}
+.bgcolor_blue_light{
+	background-color: #408ee0;
+}
+.color_white_base{
+	color: #fff;
+}
+@media screen and (min-width: 768px){
+	.float_right{
+		float: right;
+	}
+}

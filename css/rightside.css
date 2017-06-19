@@ -1,0 +1,97 @@
+.rightside{
+	position: fixed;
+	right: 0;
+	top: 60%;
+	margin-top: -150px;
+	width: 94px;
+	height: 300px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 3px #ddd;
+	z-index: 9999;
+}
+.rightside a{
+	float: left;
+	width: 100%;
+	height: 100px;
+	padding: 16px 0;
+	cursor: pointer;
+}
+.rightside a i{
+	float: left;
+	width: 100%;
+	height: 48px;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.rightside a.a1{
+	border-bottom: 1px solid #ddd;
+}
+.rightside a.a1 i{
+	background-image: url(../images/icon/kefu01.png);
+}
+.rightside a.a2 i{
+	background-image: url(../images/icon/kefu02.png);
+}
+.rightside a.a2{
+	position: relative;
+	border-bottom: 1px solid #ddd;
+}
+.rightside a.a2 p{
+	position: absolute;
+	right: 94px;
+	top: 0;
+	background: #fff;
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+	color: #009fe5;
+	width: 120px;
+	border-style: solid;
+	border-color: #ddd;
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 0;
+	display: none;
+}
+.rightside a.a3 i{
+	background-image: url(../images/icon/kefu03.png);
+}
+.rightside a span{
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #009fe5;
+}
+@media screen and (max-width: 767px) {
+	.rightside{
+		top: auto;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 70px;
+	}
+	.rightside a{
+		width: 50%;
+		height: 70px;
+		padding: 6px 0 4px;
+	}
+	.rightside a.a3{
+		display: none;
+	}
+	.rightside a i{
+		height: 38px;
+	}
+	.rightside a.a1,
+	.rightside a.a2{
+		border-right: 1px solid #ddd;
+	}
+	.rightside a.a2 p{
+		top: -70px;
+		left: 0;
+		width: 100%;
+		height: 70px;
+		line-height: 70px;
+	}
+}

@@ -1,0 +1,116 @@
+.artical_box{
+	padding: 40px 0;
+	overflow: hidden;
+}
+.artical_box .artical{
+	overflow: hidden;
+}
+.artical_box .artical header{
+	border-bottom: 1px solid #ddd;
+}
+.artical_box .artical header h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+.artical_box .artical header p{
+	font-size: 16px;
+	color: #777;
+}
+.artical_box .artical header p.p{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.artical_box .artical header p a{
+	color: #777;
+}
+.artical_box .artical header p a:hover{
+	color: #009ef5;
+}
+.artical_box .artical div p{
+	font-size: 14px;
+	color: #777;
+	margin: 10px 0;
+	text-indent: 28px;
+}
+.artical_box .artical div img{
+	padding: 10px 0;
+}
+.artical_box .advertise{
+	padding:0 15px 0 60px;
+}
+.artical_box .advertise div{
+	border-top: 2px solid #009ef5;
+}
+.artical_box .advertise header{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 10px 0;
+}
+.artical_box .advertise header span{
+	font-size: 24px;
+	line-height: 24px;
+	color: #009ef5;
+}
+.artical_box .advertise header a{
+	font-size: 12px;
+	color: #777;
+}
+.artical_box .advertise header a:hover{
+	color: #009ef5;
+}
+.artical_box .advertise ul li{
+	padding: 20px 0;
+	border-bottom: 1px solid #ddd;
+}
+.artical_box .advertise ul li h6{
+	font-size: 18px;
+	margin: 0 0 10px;
+	font-weight: bold;
+}
+.artical_box .advertise ul li p{
+	margin: 0;
+	font-size: 16px;
+	color: #777;
+}
+@media screen and (min-width: 992px) {
+	.artical_box .artical div p{
+		font-size: 16px;
+		line-height: 30px;
+		margin: 20px 0;
+	}
+}
+@media screen and (max-width: 992px) {
+	.artical_box .artical header h1{
+		font-size: 24px;
+	}
+	.artical_box .artical header p{
+		font-size: 12px;
+	}
+	.artical_box .advertise{
+		padding:0 15px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.artical_box .artical header h1{
+		font-size: 18px;
+	}
+	.artical_box .artical header p.p{
+		flex-direction: column;
+		align-items: center;
+	}
+	.artical_box .advertise ul li h6{
+		font-size: 14px;
+	}
+	.artical_box .advertise ul li p{
+		font-size: 12px;
+	}
+	.artical_box .advertise header span{
+		font-size: 20px;
+	}
+	.artical_box{
+		padding: 20px 0;
+	}
+}

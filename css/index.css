@@ -1,0 +1,185 @@
+.infostyle{
+	overflow: hidden;
+}
+.infostyle .infoul_box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	margin: 20px 0;
+}
+.infostyle ul{
+	margin-bottom: 0;
+}
+.infostyle .choose{
+	padding: 0;
+}
+.infostyle .choose button{
+	margin:2px 15px;
+	background-color: #fff;
+	width: 160px;
+	height: 20px;
+	outline: none;
+	border: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.infostyle .choose button.btn1{
+	background-image: url(../images/icon/icon12.png);
+}
+.infostyle .choose button.btn2{
+	background-image: url(../images/icon/icon12_.png);
+}
+.infostyle .ulchoose_box{
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+.infostyle .ulchoose_box ul.ul1{
+	padding: 0 15px;
+	position: absolute;
+	top: 0;
+	transition: top 0.5s;
+}
+.infostyle .ulchoose_box ul.ul1.up{
+	top: 0;
+}
+.infostyle .ulchoose_box ul.ul1.down{
+	top: -160px;
+}
+.infostyle ul.ul1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.infostyle ul.ul1 li{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	float: left;
+	width: 160px;
+	height: 80px;
+	border: 0;
+	border-bottom: 1px solid #ddd;
+}
+.infostyle ul.ul1 li.last{
+	border-bottom: 0;
+}
+.infostyle ul.ul1 li:hover,
+.infostyle ul.ul1 li.hover{
+	box-shadow: 0 0 10px -1px #ddd;
+}
+.infostyle ul.ul2 li{
+	display: none;
+	overflow: hidden;
+}
+.infostyle ul.ul2 li img{
+	
+}
+.infostyle ul.ul2 li.block{
+	display: block;
+}
+.infostyle ul.ul2 li h3{
+	font-size: 30px;
+}
+.infostyle ul.ul2 li a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	background-color: #408ee0;
+}
+.infostyle ul.ul2 li a:hover{
+	background-color: #009fe5;
+	color: #fff;
+}
+
+.infofunc_box{
+	padding: 40px 0 20px;
+	background-color: #f5f5f5;
+}
+.infofunc_box .infofunc{
+	overflow: hidden;
+}
+.infofunc_box .infofunc header,
+.infostyle header{
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.infofunc_box .infofunc header h3,
+.infostyle header h3{
+	font-size: 36px;
+}
+.infofunc_box .infofunc header p,
+.infostyle header p{
+	font-size: 18px;
+}
+.infofunc_box .infofunc ul li{
+	padding: 20px 0;
+}
+.infofunc_box .infofunc ul li img{
+	margin: 0 auto;
+}
+.infofunc_box .infofunc ul li span{
+	display: block;
+	text-align: center;
+}
+@media screen and (min-width: 992px) {
+	.infostyle ul.ul2 li div{
+		height: 454px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.infostyle ul.ul2 li div a{
+		margin-top: 40px;
+	}
+	.infostyle ul.ul2 li div h3.h3_1{
+		margin-bottom: 40px;
+	}
+	.infostyle ul.ul2 li div p{
+		line-height: 25px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.banner_box{
+		display: block;
+	}
+	.infostyle ul.ul2 li img{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.infofunc_box .infofunc header h3,
+	.infostyle header h3{
+		font-size: 28px;
+	}
+	.infofunc_box .infofunc header p,
+	.infostyle header p{
+		font-size: 14px;
+	}
+	.infostyle ul.ul1 li{
+		padding: 0;
+		width: 80px;
+		flex-direction: column;
+	}
+	.infostyle ul.ul1 li span{
+		font-size: 12px;
+	}
+	.infostyle ul.ul2 li h3{
+		font-size: 20px;
+	}
+	.infostyle ul.ul2 li p{
+		font-size: 12px;
+	}
+	.infostyle .choose button{
+		width: 80px;
+	}
+}

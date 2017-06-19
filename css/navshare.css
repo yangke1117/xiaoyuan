@@ -1,0 +1,63 @@
+body{
+	padding-top: 80px;
+}
+.nav_box{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	z-index: 9999;
+}
+.nav_box .navbar{
+	position: relative;
+	z-index: 9999;
+}
+.nav_box nav .navbar-header a{
+	float: left;
+	width: 149px;
+	height: 51px;
+	margin: 13px 0;
+}
+.nav_box nav .navbar-header a img{
+	width: 100%;
+	height: 100%;
+}
+.banner_box{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner_box.banner_box1{
+	height: 700px;
+	background-image: url(../images/img/banner01.png);
+	background-size: auto 700px !important;
+}
+.banner_box.banner_box2{
+	height: 415px;
+	background-image: url(../images/img/banner02.png);
+	background-size: auto 415px !important;
+}
+@media screen and (max-width: 1199px){
+	.banner_box.banner_box1{
+		height: 55vw;
+		background-size: auto 55vw !important;
+	}
+	.banner_box.banner_box2{
+		height: 32vw;
+		background-size: auto 32vw !important;
+	}
+}
+@media screen and (max-width: 991px) {
+	.banner_box{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav_box nav .navbar-header a{
+		margin-left:15px;
+	}
+}
